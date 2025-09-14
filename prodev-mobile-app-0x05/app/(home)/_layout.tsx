@@ -1,7 +1,7 @@
 import { AntDesign, EvilIcons, Feather, FontAwesome, Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 
-const HomeLayout = () => {
+const HomeRootLayout = () => {
   return (
     <Tabs screenOptions={{
         tabBarActiveTintColor: '#34967C',
@@ -35,4 +35,4 @@ const HomeLayout = () => {
   )
 }
 
-export default HomeLayout;
+export default HomeRootLayout;
